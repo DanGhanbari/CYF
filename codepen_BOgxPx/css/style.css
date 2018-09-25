@@ -1,0 +1,204 @@
+.body .box {
+  background-color: black;
+  height: 80px;
+  width: 1420px;
+  margin-top: 20px;
+  position: relative;
+}
+
+a:visited {
+  color: black;
+}
+.body .contact a:link {
+  text-decoration-line: none;
+  color: black;
+}
+.body .history a:link {
+  text-decoration-line: none;
+  color: black;
+}
+.body .history a:hover {
+  color: yellow;
+}
+.body .contact a:hover {
+  color: yellow;
+}
+.body .contact {
+  display: inline;
+  background-color: gray;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+  position: relative;
+  top: 30px;
+  margin-left: 10px;
+  border: 2px solid yellow;
+  font-weight: 800;
+  text-shadow: 0.5px 1px 3px black;
+  border-radius: 6px;
+}
+.body .history {
+  display: inline;
+  background-color: gray;
+  margin-left: 5px;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 5px;
+  position: relative;
+  top: 30px;
+  border: 2px solid yellow;
+  font-weight: 800;
+  text-shadow: 0.5px 1px 3px black;
+  border-radius: 6px;
+}
+
+.body {
+  font-family: sans-serif;
+  top: auto;
+  height: auto;
+  width: 100%;
+}
+
+.body .header {
+  background-color: gray;
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  margin: 0px;
+  width: 1420px;
+  height: auto;
+}
+
+.body .image1 {
+  float: center;
+  margin-top: 10px;
+  position: absolute;
+  width: 1420px;
+  height: auto;
+}
+
+.body .image2 {
+  position: absolute;
+  margin-top: 10px;
+  top: 1200px;
+  float: right;
+  left: 100px;
+}
+
+.body .image3 {
+  position: absolute;
+  top: 1200px;
+  left: 1000px;
+}
+
+.body .caption {
+  background-color: white;
+  width: 1395px;
+  color: black;
+  filter: opacity(0.5);
+  padding: 12px;
+  top: 860px;
+  position: absolute;
+  font-size: 1rem;
+  overflow-wrap: break-word;
+}
+.body .table {
+  position: absolute;
+  top: 1200px;
+  left: 400px;
+  border: 4px solid;
+  border-spacing: 3px;
+  border-collapse: separate;
+  color: Black;
+}
+td {
+  border: 3px groove;
+  padding: 6px;
+}
+
+.description {
+  color: black;
+  position: absolute;
+  top: 1550px;
+  background-color: gray;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 2em;
+  font-weight: 700;
+  padding: 20px;
+  text-align: justify;
+  width: 1380px;
+}
+
+.body .coder {
+  position: absolute;
+  top: 2060px;
+  text-align: center;
+  width: 1420px;
+  font-size: 13px;
+  color: gray;
+}
+
+.footer {
+  width: 1420px;
+}
+.body .footer .menu ul li {
+  list-style: none;
+  position: relative;
+  display: inline;
+  float: left;
+  top: 1820px;
+}
+
+li a {
+  background: yellow;
+}
+
+@media screen and (max-width: 800px) {
+  .body .footer .menu ul li {
+    float: left;
+    top: 2290px;
+  }
+  li a {
+    background: white;
+  }
+  .body .coder {
+    text-align: center;
+    top: 2490px;
+    width: 705px;
+  }
+  .body {
+    width: 705px;
+  }
+  .body .box {
+    width: 705px;
+  }
+  .body .header {
+    width: 705px;
+  }
+  .body .image1 {
+    width: 705px;
+  }
+  .body .caption {
+    width: 705px;
+    top: 365px;
+  }
+  .body .image2 {
+    top: 690px;
+    left: 300px;
+  }
+  .body .table {
+    width: 705px;
+    top: 1040px;
+    left: 10px;
+  }
+  .body .image3 {
+    top: 1370px;
+    left: 300px;
+  }
+  .body .description {
+    width: 655px;
+    left: 10px;
+    top: 1670px;
+  }
+}
